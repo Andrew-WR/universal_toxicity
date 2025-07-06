@@ -12,7 +12,6 @@ with open("prompts.jsonl", "r", encoding="utf-8") as f:
         except json.JSONDecodeError as e:
             print(f"Line {i} has an error: {e}")
 
-print(f"d[0]: {d[0]}")
 dataset = []
 
 with open('toprealtoxicity.txt', 'r') as f:
